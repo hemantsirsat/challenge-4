@@ -1,7 +1,19 @@
+@keyframes extendanswer {
+    0% {height: 0;}
+    100% {height: 100%;}
+}
+
+@keyframes shrinkanswer {
+    0% {height: 100%}
+    100% {height: 0}
+}
+
 .questioncontainer {
     padding: 1rem;
     margin-top: -2rem;
     width: 90%;
+    display: flex;
+    flex-direction: column;
 }
 
 .question:hover {
@@ -9,16 +21,17 @@
 }
 
 .question {
-  color: hsl(237,12%,37%);
-  font-size: 1.9ch;
-  font-weight:400;
-
+    color: hsl(237,12%,37%);
+    font-size: 1.9ch;
+    font-weight:400;
+    text-align: left;
 }
 
 .boldquestion {
     color: hsl(237,12%,37%);
     font-weight: 700;
-    font-size: 1.9ch;
+    font-size: 2ch;
+    text-align: left;
 }
 
 .questioncontainer button {
@@ -51,6 +64,9 @@
     width: 90%;
     margin-top: -1rem;
     line-height: 1rem;
+    margin-left: 0.5rem;
+    /* animation-name: extendanswer; */
+    /* animation-duration: 4s; */
 }
 
 .hideanswer {
@@ -61,4 +77,11 @@
     background-color: hsl(240,5%,91%);
     width: 100%;
     height: 1px;
+}
+
+@media (max-width: 468px){
+
+    .questioncontainer {
+        width: 100%;
+    }
 }
