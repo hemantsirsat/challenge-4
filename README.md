@@ -9,6 +9,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+      - [Desktop view](#desktop-view)
+      - [Mobile view](#mobile-view)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -26,13 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop view
 ![](./public/desktop.png)
+
+#### Mobile view
 ![](./public/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://challenge-4-mu.vercel.app/)
 
 ## My process
 
